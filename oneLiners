@@ -1,2 +1,3 @@
+# Pings list of DNS names.
 # TXT file should be one DNS name per line.
 for /f "tokens=1" %a in (<.TXT>) DO @ping -n 1 %a 
